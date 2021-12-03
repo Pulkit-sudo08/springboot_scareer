@@ -1,13 +1,13 @@
-package com.sygnific.careers.sygnific.careers;
+package com.lms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SygnificCareersApplication {
+public class LMS {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SygnificCareersApplication.class, args);
+		SpringApplication.run(LMS.class, args);
 		System.out.println("hello");
 	}
 
